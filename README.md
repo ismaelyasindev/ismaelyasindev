@@ -1,6 +1,6 @@
 ## Hi there 👋
 # 💫 About Me:
-    - I'm currently working on **an AI-powered Restaurant Management App** - automating operations with intelligent systems<br>-  I'm passionate about **DevOps and Cloud Infrastructure** - building scalable, automated solutions<br>- I'm currently learning **Kubernetes** - container orchestration and cloud-native deployments<br>- I'm looking to collaborate on **DevOps and Cloud projects**
+- I'm currently working on **an AI-powered Restaurant Management App** - automating operations with intelligent systems<br>-  I'm passionate about **DevOps and Cloud Infrastructure** - building scalable, automated solutions<br>- I'm currently learning **Kubernetes** - container orchestration and cloud-native deployments<br>- I'm looking to collaborate on **DevOps and Cloud projects**
 
 
 ## 🌐 Socials:
