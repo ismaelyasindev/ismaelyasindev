@@ -1,7 +1,7 @@
 ## Hi there 
 # About Me:
 
-DevOps & Cloud Engineer focused on building scalable, automated, and production-ready systems on AWS.
+ DevOps & Cloud Engineer focused on building scalable, automated, and production-ready systems on AWS.
 
 * Currently building an AI-powered Restaurant Management App, streamlining operations through intelligent automation
 * Skilled in AWS | Terraform | Docker | GitHub Actions | Linux | CI/CD
@@ -9,7 +9,6 @@ DevOps & Cloud Engineer focused on building scalable, automated, and production-
 * Currently expanding expertise in Kubernetes and cloud-native architectures
 * Open to opportunities and collaborations in DevOps and Cloud Engineering
 
-🔗 GitHub: https://github.com/ismaelyasindev
 🌐 Portfolio: (http://www.ismaelyasin.site)
 
 
