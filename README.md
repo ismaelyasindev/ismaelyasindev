@@ -1,6 +1,17 @@
-## Hi there 👋
-# 💫 About Me:
-  - currently working on **an AI-powered Restaurant Management App** - automating operations with intelligent systems<br>-  passionate about **DevOps and Cloud Infrastructure** - building scalable, automated solutions<br>- currently learning **Kubernetes** - container orchestration and cloud-native deployments<br>- looking to collaborate on **DevOps and Cloud projects**
+## Hi there 
+# About Me:
+
+DevOps & Cloud Engineer focused on building scalable, automated, and production-ready systems on AWS.
+
+* Currently building an AI-powered Restaurant Management App, streamlining operations through intelligent automation
+* Skilled in AWS | Terraform | Docker | GitHub Actions | Linux | CI/CD
+* Passionate about cloud infrastructure, automation, and reliable system design
+* Currently expanding expertise in Kubernetes and cloud-native architectures
+* Open to opportunities and collaborations in DevOps and Cloud Engineering
+
+🔗 GitHub: https://github.com/ismaelyasindev
+🌐 Portfolio: (http://www.ismaelyasin.site)
+
 
 
 ## 🌐 Socials:
