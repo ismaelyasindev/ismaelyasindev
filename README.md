@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Ismael%20Yasin&fontSize=60&fontColor=ffffff&animation=fadeIn&desc=Cloud%20%26%20DevOps%20Engineer&descSize=22&descAlignY=75" width="100%"/>
+# Hi 👋, I'm Ismael Yasin
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Cloud+%26+DevOps+Engineer+%E2%98%81%EF%B8%8F;AWS+%7C+Terraform+%7C+Docker+%7C+CI%2FCD;I+build+production-ready+infrastructure;Automate+everything+%F0%9F%9A%80" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&height=45&lines=Cloud+%26+DevOps+Engineer;AWS+%7C+Terraform+%7C+Docker+%7C+Kubernetes+%7C+CI%2FCD;I+build+production-ready+infrastructure;Automate+everything+%F0%9F%9A%80" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -74,17 +74,25 @@ My personal portfolio, deployed to Azure Static Web Apps with Terraform-managed 
 
 <div align="center">
 
-**Cloud Platforms**
+**☁️ Cloud Platforms**
 
-<img src="https://skillicons.dev/icons?i=aws,azure&theme=dark" alt="Cloud" />
+<img src="https://skillicons.dev/icons?i=aws,azure,cloudflare&theme=dark" alt="Cloud" />
 
-**Infrastructure & DevOps**
+**🏗️ Infrastructure as Code & CI/CD**
 
-<img src="https://skillicons.dev/icons?i=terraform,docker,kubernetes,githubactions,linux,bash,git&theme=dark" alt="DevOps" />
+<img src="https://skillicons.dev/icons?i=terraform,ansible,githubactions,git,github&theme=dark" alt="IaC and CI/CD" />
 
-**Languages & Frameworks**
+**📦 Containers & Orchestration**
 
-<img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,python,html,css&theme=dark" alt="Languages" />
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx&theme=dark" alt="Containers" />
+
+**📈 Monitoring & Observability**
+
+<img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" alt="Monitoring" />
+
+**🐧 OS & Scripting**
+
+<img src="https://skillicons.dev/icons?i=linux,bash,python&theme=dark" alt="OS and Scripting" />
 
 </div>
 
@@ -94,12 +102,16 @@ My personal portfolio, deployed to Azure Static Web Apps with Terraform-managed 
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=ismaelyasindev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&include_all_commits=true" alt="GitHub Stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ismaelyasindev&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top Languages" />
+<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ismaelyasindev&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ismaelyasindev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 
 <br/>
 
-<img src="https://nirzak-streak-stats.vercel.app/?user=ismaelyasindev&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=ismaelyasindev&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ismaelyasindev&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" />
 
 </div>
 
@@ -124,7 +136,5 @@ My personal portfolio, deployed to Azure Static Web Apps with Terraform-managed 
 ### 💬 Let's build something great together
 
 *Open to DevOps & Cloud Engineering opportunities — feel free to reach out!*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%"/>
 
 </div>
