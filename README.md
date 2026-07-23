@@ -46,9 +46,7 @@ A production deployment of Amazon's open-source threat modelling tool on AWS ECS
 
 Live: [ismaelbroadband.online](https://ismaelbroadband.online/)
 
-A broadband checker modelled on Ofcom's tool, built as a full production edge and origin system on AWS. Every layer is written in Terraform, split into bootstrap, origin (eu-west-2) and edge (us-east-1) stacks. The edge is a CloudFront distribution locked to a private S3 bucket through OAC, fronted by WAF managed rules and rate limits, with HTTPS from ACM and CSP and HSTS headers injected by a CloudFront Function. The origin is an arm64 Lambda behind API Gateway that only trusts requests carrying an origin-verify secret from CloudFront, using a DynamoDB cache-aside table and pulling its Ofcom key from SSM SecureString. X-Ray tracing, a CloudWatch dashboard, SNS alarms and a monthly AWS Budget cover observability and cost.
-
-Six GitHub Actions workflows run the whole thing with GitHub OIDC and no long-lived AWS keys, using separate read-only plan and deploy roles. The pipeline lints, tests, scans with Checkov and Snyk, plans on pull requests, applies on manual approval, and runs a health smoke test before going green.
+A broadband checker modelled on Ofcom's tool, built as a full edge and origin system on AWS with every layer in Terraform. CloudFront sits in front of a private S3 bucket with WAF and ACM HTTPS, backed by an arm64 Lambda, API Gateway, a DynamoDB cache and SSM. Six GitHub Actions workflows deploy it through GitHub OIDC with no long-lived keys, scanning with Checkov and Snyk along the way.
 
 `Terraform` `AWS` `GitHub OIDC` `CloudFront` `WAF` `Lambda` `API Gateway` `DynamoDB` `SSM` `CloudWatch` `X-Ray` `Checkov` `Snyk`
 
