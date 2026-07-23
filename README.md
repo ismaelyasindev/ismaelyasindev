@@ -1,8 +1,8 @@
 <div align="center">
 
-# Hi 👋, I'm Ismael Yasin
+# Hi, I'm Ismael Yasin
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&height=45&lines=Cloud+%26+DevOps+Engineer;AWS+%7C+Terraform+%7C+Docker+%7C+Kubernetes+%7C+CI%2FCD;I+build+production-ready+infrastructure;Automate+everything+%F0%9F%9A%80" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&height=45&lines=Cloud+%26+DevOps+Engineer;AWS+%7C+Terraform+%7C+Docker+%7C+Kubernetes+%7C+CI%2FCD;I+build+production-ready+infrastructure;Automate+everything" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -16,81 +16,73 @@
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-DevOps & Cloud Engineer focused on building **scalable, automated, and production-ready systems on AWS** — everything below runs live in the cloud, deployed with Terraform and CI/CD, not just tutorials.
+I'm a Cloud and DevOps engineer who builds and runs real infrastructure on AWS. I like taking a project all the way from an empty account to something that serves live traffic, with the whole thing described in Terraform and deployed by a pipeline instead of by hand.
 
-- 🚀 Currently building **NEXHost** — an AI-powered restaurant management platform
-- 🏗️ I design infrastructure as code: **Terraform, multi-AZ VPCs, private subnets, zero-click deployments**
-- ⚙️ Every project ships through **GitHub Actions pipelines** — build → test → deploy → health check
-- 📚 Currently levelling up in **Kubernetes** and cloud-native architectures
-- 💬 Open to opportunities and collaborations in **DevOps & Cloud Engineering**
+- Currently building NEXHost, an AI-powered restaurant management platform
+- I work day to day with Terraform, multi-AZ VPCs, private subnets, and ECS
+- Every project here deploys through GitHub Actions, from Docker build to Terraform apply to a post-deploy health check
+- Right now I'm going deeper on Kubernetes and cloud-native design
+- Open to Cloud and DevOps roles, and happy to talk shop any time
 
 ---
 
-## 🏆 Featured Projects
+## Featured Projects
 
-> Each project is **live in production**, provisioned entirely with Terraform, and deployed through automated CI/CD pipelines.
+Each of these is running in production right now. The infrastructure is written in Terraform and shipped by a GitHub Actions pipeline.
 
-### 🥇 [Threat Composer — End-to-End ECS Deployment](https://github.com/ismaelyasindev/end-to-end-Threat-composer-ecs)
+### 🥇 [Threat Composer on ECS](https://github.com/ismaelyasindev/end-to-end-Threat-composer-ecs)
 
-**🔗 Live: [threat.ismaelawsdashboard.site](https://threat.ismaelawsdashboard.site)**
+Live: [threat.ismaelawsdashboard.site](https://threat.ismaelawsdashboard.site)
 
-Production deployment of Amazon's open-source threat modelling tool on AWS ECS Fargate. Multi-AZ VPC with private subnets, ALB with SSL termination via ACM, Route 53 DNS, ECR image pipeline, and three separate GitHub Actions workflows (Docker build, Terraform apply, post-deploy health checks).
+A production deployment of Amazon's open-source threat modelling tool on AWS ECS Fargate. It runs behind an Application Load Balancer with SSL from ACM, sits in private subnets across two availability zones, and pulls its images from ECR. Three GitHub Actions workflows handle the Docker build, the Terraform apply, and a health check that confirms the deploy actually came up.
 
 `AWS ECS` `Terraform` `Docker` `GitHub Actions` `ALB` `Route 53` `ECR` `React`
 
 ---
 
-### 🥈 [UK Broadband Checker — Serverless S3 Static App](https://github.com/ismaelyasindev/Uk_Broadband_Checker_S3_static_app)
+### 🥈 [UK Broadband Checker](https://github.com/ismaelyasindev/Uk_Broadband_Checker_S3_static_app)
 
-A secure, production-grade broadband availability checker modelled on Ofcom's official tool. React + Vite + TypeScript frontend served from S3/CloudFront with a Node.js 20 Lambda backend implementing **Zero-Trust validation, GDPR-conscious handling, cache-aside caching, and SSM parameter memoization** — with a fully mocked Vitest suite at 100% coverage.
+Live: [ismaelbroadband.online](https://ismaelbroadband.online/)
+
+A broadband availability checker modelled on Ofcom's official tool. The frontend is React, Vite and TypeScript served from S3 behind CloudFront, and the backend is a Node.js 20 Lambda. The Lambda validates every request before trusting it, keeps user data handling GDPR-conscious, caches lookups to cut repeat calls, and remembers its config from SSM. The test suite mocks the AWS SDK and covers the handler fully.
 
 `S3` `CloudFront` `Lambda` `React` `TypeScript` `Tailwind CSS` `Vitest` `SSM`
 
 ---
 
-### 🥉 [AWS Cost Dashboard — Full-Stack on ECS](https://github.com/ismaelyasindev/AWS-cost-dasbord-ECS)
+### 🥉 [AWS Cost Dashboard on ECS](https://github.com/ismaelyasindev/AWS-cost-dasbord-ECS)
 
-**🔗 Live: [dashboard.ismaelawsdashboard.site](https://dashboard.ismaelawsdashboard.site)**
+Live: [dashboard.ismaelawsdashboard.site](https://dashboard.ismaelawsdashboard.site)
 
-Full-stack cost analytics platform visualising AWS spend across accounts — service breakdowns, regional distribution, and budget alerts. React frontend + Node.js backend in a microservices pattern on ECS, spanning multiple availability zones with automated scaling and monitoring.
+A full-stack app for tracking AWS spend across accounts, with service breakdowns, a regional view, and budget alerts. A React frontend talks to a Node.js backend, both running as separate services on ECS across two availability zones, with scaling and monitoring wired in.
 
 `AWS ECS` `Terraform` `Docker` `Node.js` `React` `GitHub Actions` `CloudWatch`
 
 ---
 
-### 🎖️ [Portfolio Website — Azure Static Web Apps](https://github.com/ismaelyasindev/portf-1)
-
-**🔗 Live: [ismaelyasin.site](https://www.ismaelyasin.site)**
-
-My personal portfolio, deployed to Azure Static Web Apps with Terraform-managed infrastructure and GitHub Actions CI/CD — global CDN, automatic HTTPS, and instant cache invalidation on every push to main.
-
-`Azure` `Terraform` `GitHub Actions` `HTML/CSS/JS`
-
----
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
-**☁️ Cloud Platforms**
+**Cloud Platforms**
 
-<img src="https://skillicons.dev/icons?i=aws,azure,cloudflare&theme=dark" alt="Cloud" />
+<img src="https://skillicons.dev/icons?i=aws,azure&theme=dark" alt="Cloud" />
 
-**🏗️ Infrastructure as Code & CI/CD**
+**Infrastructure as Code & CI/CD**
 
 <img src="https://skillicons.dev/icons?i=terraform,ansible,githubactions,git,github&theme=dark" alt="IaC and CI/CD" />
 
-**📦 Containers & Orchestration**
+**Containers & Orchestration**
 
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx&theme=dark" alt="Containers" />
 
-**📈 Monitoring & Observability**
+**Monitoring & Observability**
 
 <img src="https://skillicons.dev/icons?i=prometheus,grafana&theme=dark" alt="Monitoring" />
 
-**🐧 OS & Scripting**
+**OS & Scripting**
 
 <img src="https://skillicons.dev/icons?i=linux,bash,python&theme=dark" alt="OS and Scripting" />
 
@@ -98,7 +90,7 @@ My personal portfolio, deployed to Azure Static Web Apps with Terraform-managed 
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -117,7 +109,7 @@ My personal portfolio, deployed to Azure Static Web Apps with Terraform-managed 
 
 ---
 
-## 🐍 Contribution Graph
+## Contribution Graph
 
 <div align="center">
 
@@ -133,8 +125,8 @@ My personal portfolio, deployed to Azure Static Web Apps with Terraform-managed 
 
 <div align="center">
 
-### 💬 Let's build something great together
+### Get in touch
 
-*Open to DevOps & Cloud Engineering opportunities — feel free to reach out!*
+Open to Cloud and DevOps roles. Feel free to reach out.
 
 </div>
