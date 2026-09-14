@@ -30,9 +30,21 @@ I'm a Cloud and DevOps engineer who builds and runs real infrastructure on AWS. 
 
 ## Featured Projects
 
-Each of these is running in production right now. The infrastructure is written in Terraform and shipped by a GitHub Actions pipeline.
+Every one of these is built to run on AWS, described in Terraform and shipped by a GitHub Actions pipeline.
 
-### 🥇 [Threat Composer on ECS](https://github.com/ismaelyasindev/end-to-end-Threat-composer-ecs)
+### 🥇 [B2B EKS Platform](https://github.com/ismaelyasindev/b2b-eks-platform)
+
+Live: [storefront on CloudFront](https://d2dx5pzn9z18zo.cloudfront.net)
+
+Five FastAPI microservices on a single Amazon EKS cluster, all in Terraform, delivered by Argo CD GitOps with GitHub OIDC pushing images into ECR, fronted by an ALB and WAF and a CloudFront storefront.
+
+The centrepiece is a self-healing AIOps loop. When a Locust load test floods Postgres with connections, Prometheus fires an `RDSConnectionStorm` alert, SNS hands it to a Lambda that asks Amazon Bedrock for a one-word verdict, and a human approves or declines from a signed SES email. On approval a DynamoDB flag makes the auth service start returning HTTP 429, and a TTL on that flag lifts the throttle on its own. Detect, decide, ask a human, remediate, self-heal, end to end.
+
+`AWS EKS` `Terraform` `Argo CD` `GitOps` `Helm` `FastAPI` `Bedrock` `Prometheus` `Grafana` `Lambda` `SNS` `SES` `DynamoDB` `Karpenter` `WAF` `CloudFront` `GitHub OIDC`
+
+---
+
+### 🥈 [Threat Composer on ECS](https://github.com/ismaelyasindev/end-to-end-Threat-composer-ecs)
 
 Live: [threat.ismaelawsdashboard.site](https://threat.ismaelawsdashboard.site)
 
@@ -42,7 +54,7 @@ A production deployment of Amazon's open-source threat modelling tool on AWS ECS
 
 ---
 
-### 🥈 [UK Broadband Checker](https://github.com/ismaelyasindev/Uk_Broadband_Checker_S3_static_app)
+### 🥉 [UK Broadband Checker](https://github.com/ismaelyasindev/Uk_Broadband_Checker_S3_static_app)
 
 Live: [ismaelbroadband.online](https://ismaelbroadband.online/)
 
@@ -52,7 +64,7 @@ A broadband checker modelled on Ofcom's tool, built as a full edge and origin sy
 
 ---
 
-### 🥉 [AWS Cost Dashboard on ECS](https://github.com/ismaelyasindev/AWS-cost-dasbord-ECS)
+### 🎖️ [AWS Cost Dashboard on ECS](https://github.com/ismaelyasindev/AWS-cost-dasbord-ECS)
 
 Live: [dashboard.ismaelawsdashboard.site](https://dashboard.ismaelawsdashboard.site)
 
@@ -94,16 +106,21 @@ A full-stack app for tracking AWS spend across accounts, with service breakdowns
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ismaelyasindev&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-<img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ismaelyasindev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ismaelyasindev&theme=tokyonight" alt="GitHub Profile Summary" />
+
+<br/>
+
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ismaelyasindev&theme=tokyonight" alt="Top Languages by Repo" />
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ismaelyasindev&theme=tokyonight" alt="Most Committed Languages" />
+
+<br/>
+
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ismaelyasindev&theme=tokyonight" alt="GitHub Stats" />
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ismaelyasindev&theme=tokyonight&utcOffset=1" alt="Productive Time" />
 
 <br/>
 
 <img src="https://streak-stats.demolab.com?user=ismaelyasindev&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ismaelyasindev&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Activity Graph" />
 
 </div>
 
