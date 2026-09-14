@@ -118,10 +118,6 @@ A full-stack app for tracking AWS spend across accounts, with service breakdowns
 <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ismaelyasindev&theme=tokyonight" alt="GitHub Stats" />
 <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ismaelyasindev&theme=tokyonight&utcOffset=1" alt="Productive Time" />
 
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=ismaelyasindev&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
 </div>
 
 ---
